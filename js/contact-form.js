@@ -10,10 +10,10 @@ $(window).on("load", function() {
         var user_name = document.getElementById("username");
         var contact_email_address = document.getElementById("email");
         if(user_name.value === ""){
-            errors+= 'Please provide your name.';
+            errors+= 'Por favor indica tu nombre.';
         }
         else if(contact_email_address.value === ""){
-            errors+= 'Please provide an email address.';
+            errors+= 'Por favor indica tu email.';
         }
 
 
@@ -39,10 +39,10 @@ $(window).on("load", function() {
                         document.getElementById("description").value = "";
     //                        $("#contact_form_2").hide();
                         document.getElementById("success").style.display = "block";
-                        document.getElementById("success").innerHTML = "Thank You! We'll contact you shortly.";
+                        document.getElementById("success").innerHTML = "Gracias! Te responderemos pronto.";
                     }else{
                         document.getElementById("error").style.display = "block";
-                        document.getElementById("error").innerHTML = "Oops! Something went wrong while prceeding.";
+                        document.getElementById("error").innerHTML = "Oops! Algo salió mal.";
                     }
                 }
 
@@ -61,10 +61,10 @@ $(window).on("load", function() {
         var user_name = document.getElementById("username");
         var contact_email_address = document.getElementById("email");
         if(user_name.value === ""){
-            errors+= 'Please provide your name.';
+            errors+= 'Por favor indique su nombre.';
         }
         else if(contact_email_address.value === ""){
-            errors+= 'Please provide an email address.';
+            errors+= 'Por favor indique su email.';
         }
 
 
@@ -90,10 +90,10 @@ $(window).on("load", function() {
                         document.getElementById("description").value = "";
     //                      $("#contact_form_3").hide();
                         document.getElementById("success").style.display = "block";
-                        document.getElementById("success").innerHTML = "Thank You! We'll contact you shortly.";
+                        document.getElementById("success").innerHTML = "Gracias! Te responderemos pronto.";
                     }else{
                         document.getElementById("error").style.display = "block";
-                        document.getElementById("error").innerHTML = "Oops! Something went wrong while prceeding.";
+                        document.getElementById("error").innerHTML = "Oops! Algo salió mal.";
                     }
                 }
 
