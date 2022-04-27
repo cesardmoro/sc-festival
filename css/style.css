@@ -270,7 +270,7 @@ header {
 	top: 0;
 	left: 0;
 	z-index: 99;
-	padding: 60px 0 0 0;
+	padding: 20px 0 0 0;
 }
 header.sticky {
 	position: fixed;
@@ -278,20 +278,28 @@ header.sticky {
 	left: 0;
 	width: 100%;
 	background-color: rgba(0,0,0,0.60);
-	padding: 25px 0;
+	padding: 10px 0;
 	z-index: 99999;
+}
+header.sticky .logo img {
+  bottom: auto;
+}
+header.sticky .navigations.styl {
+    margin-top: 20px;
 }
 .logo {
 	float: left;
 	width: 20%;
 }
 .logo img {
+	bottom: 10px;
 	max-width: 100%;
+	position: relative;
 }
 .navigations {
 	float: right;
 	width: 80%;
-	margin-top: 3px;
+	margin-top: 6px;
 }
 nav {
 	float: right;
@@ -3169,11 +3177,11 @@ header.style2 nav {
 .tb-rate {
 	float: left;
 	width: 100%;
-	margin-bottom: 40px;
+	margin-bottom: 4em;
 }
 .tb-rate h1 {
 	color: #6d6e71;
-	font-size: 80px;
+	font-size: 4em;
 	margin-bottom: 25px;
 	font-weight: 800;
 }
