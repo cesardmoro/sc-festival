@@ -3587,3 +3587,12 @@ h3 {
 strong {
     font-weight: bold;
 }
+.mail-contacto {
+    text-align: center;
+    font-size: 73px;
+    padding: 20px;
+}
+
+.mail-contacto .fa {
+    color: #006ca3;
+}

@@ -1,10 +1,6 @@
-axn: contact_2
-username: test
-email: cesarasd
-subject: asdasd
-description: asd
-
 <?php 
+
+
 $to = "cesar.d.moro@gmail.com";
 $subject = "Somos Cerveceros | Contacto Web Festival ";
 
@@ -20,7 +16,7 @@ $header = "From:info@somoscerveceros.com \r\n";
 $header .= "MIME-Version: 1.0\r\n";
 $header .= "Content-type: text/html\r\n";
 
-$retval = mail ($to,$subject,$message,$header);
+$retval = mail ($to,$subject,$message,$header, " -finfo@somoscerveceros.com");
 
 if( $retval == true ) {
    echo "Message sent successfully...";
